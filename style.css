@@ -26,11 +26,7 @@ background-image: url('/images/cyber-hintergrund.jpg');
     margin-right: 20px; /* Abstand zwischen den Menüpunkten */
 }
 
-.menu a {
-    text-decoration: none; /* Entfernt die Standard-Link-Unterstreichung */
-    color: #5e1bb7; /* Textfarbe der Menüpunkte */
-    font-weight: bold;
-}
+
 
 .menu a:hover {
     color: #007BFF; /* Farbe der Menüpunkte im Hover-Zustand */
@@ -54,7 +50,7 @@ h1 {
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
-    -webkit-text-stroke: 2px hsla(0, 0%, 0%, 0.573);
+    -webkit-text-stroke: 4px hsla(0, 0%, 0%, 0.573);
   
    
 }
@@ -121,4 +117,24 @@ p {
 a:hover {
     background-color: rgb(250, 227, 163); /* Neue Hintergrundfarbe im Hover-Zustand */
     color: #007BFF;
+}
+
+.arrow-button {
+    position: absolute;
+    width: 42px;
+    height: 43px;
+    background-color: #120D0AAB;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left {
+    left: 234px;
+}
+
+.right {
+    right: 234px;
 }
