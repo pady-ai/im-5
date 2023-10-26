@@ -58,14 +58,18 @@ h1 {
 h2 {
     margin-top: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+   color: #01bd1d;
     
 }
 
 .image-container {
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
     height: 400px;
-    background-color: rgb(190, 96, 190);
+    background-color: rgba(180, 171, 180, 0.201);
 }
 .image-container img {
     max-width: 100%; /* Das Bild wird nie breiter als der Container */
@@ -85,11 +89,11 @@ section {
 }
 
 article {
-    width: 300px;
+    width: 430px;
     background-color: rgb(0, 0, 0);
-    padding: 55px;
-    border-radius: 6px; /* Hier wird die Abrundung festgelegt */
-    margin: -23px;
+    padding: 28px;
+    border-radius: 27px; /* Hier wird die Abrundung festgelegt */
+    margin: -24px;
     text-align: center; /* Optional: zentriert die Textboxen im Container */
     }
 
@@ -108,7 +112,6 @@ p {
     text-decoration: none; /* Entfernt die Standard-Link-Unterstreichung */
     border-radius: 5px; /* Abrundung der Ecken */
     transition: background-color 0.3s; /* Animierter Hover-Effekt */
-    font-weight: bold;
     font-style: Inter;
 }
 
