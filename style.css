@@ -6,6 +6,7 @@ background-image: url('/images/cyber-hintergrund.jpg');
   margin: 0 auto;
   padding: 100px;
   display: flex;
+  object-position: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -54,6 +55,16 @@ h1 {
 }
 h2 {
     margin-top: 0;
+}
+
+.image-container {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(190, 96, 190);
+}
+.image-container img {
+    max-width: 100%; /* Das Bild wird nie breiter als der Container */
+    max-height: 100%; /* Das Bild wird nie höher als der Container */
 }
 
 section {
